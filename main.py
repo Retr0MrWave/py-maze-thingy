@@ -13,7 +13,13 @@ def createMaze():
 
 def printHelpMessage():
     # TODO: Make a proper help message
-    print("We\'ll make this later")
+    print("q - exit")
+    print("h - display this message")
+    print("r - restart and regenerate maze")
+    print("w - go up")
+    print("a - go left")
+    print("s - go down")
+    print("d - go right")
 
 if __name__ == "__main__":
     print("Welcome to maze thingy!")
